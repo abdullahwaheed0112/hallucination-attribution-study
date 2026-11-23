@@ -1,0 +1,5 @@
+label,view,suggestion,n,accuracy_exact,chose_suggested,measure_note
+SIMULATED - pipeline test only,console,incorrect,32,0.1875,0.4375,chose_suggested = overreliance (copied a wrong suggestion)
+SIMULATED - pipeline test only,console,correct,32,0.65625,0.65625,chose_suggested = agreement; 1 - this = rejected a right suggestion
+SIMULATED - pipeline test only,visual,incorrect,32,0.3125,0.46875,chose_suggested = overreliance (copied a wrong suggestion)
+SIMULATED - pipeline test only,visual,correct,32,0.75,0.75,chose_suggested = agreement; 1 - this = rejected a right suggestion

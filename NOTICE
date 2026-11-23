@@ -1,0 +1,11 @@
+This repository builds on data from AgentHallu:
+
+  Liu, X., Yang, X., Li, Z., Li, P., & He, R. (2026). AgentHallu: Benchmarking
+  automated hallucination attribution of LLM-based agents. EMNLP 2026.
+  https://github.com/liuxuannan/AgentHallu (commit 9ffe8bc)
+
+The AgentHallu repository states CC BY 4.0; the paper states CC BY-NC-SA 4.0.
+We follow the stricter terms: attribution, non-commercial use, share-alike.
+Files in this repository that contain AgentHallu trace text (results/step_table.csv,
+app/data/items.js) are derived from that dataset and are shared under CC BY-NC-SA 4.0.
+The datasets themselves are not redistributed here; download them from their sources.

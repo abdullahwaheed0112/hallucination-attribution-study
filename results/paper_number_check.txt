@@ -1,0 +1,113 @@
+PASS baseline pool_82 chance True
+PASS baseline pool_82 always step 1 True
+PASS baseline pool_82 always step 3 True
+PASS baseline block_a_24 chance True
+PASS baseline block_a_24 always step 1 True
+PASS baseline block_a_24 always step 3 True
+PASS baseline block_b_8 chance True
+PASS baseline block_b_8 always step 1 True
+PASS baseline block_b_8 always step 3 True
+PASS baseline selected_34 chance True
+PASS baseline selected_34 always step 1 True
+PASS baseline selected_34 always step 3 True
+PASS published LLM exact 41.1
+PASS stratum block_a_24|early always step 1 50.0
+PASS stratum block_a_24|early always step 3 41.7
+PASS stratum block_a_24|later always step 1 0.0
+PASS stratum block_a_24|later always step 3 0.0
+PASS pool filter hallucination present =  111
+PASS pool filter <= 20 steps =  104
+PASS pool filter <= 3000 words =  83
+PASS pool filter responsible role known =  82
+PASS pool filter unique question =  82
+PASS pool Magentic_One 47
+PASS pool Camel 35
+PASS pool step 3 labels 46
+PASS pool later items below median 6
+PASS pool later items 17
+PASS pool median words 1135.5
+PASS Block A frameworks Camel 8
+PASS Block A frameworks Magentic 16
+PASS Block A step cap max count 6
+PASS Block B wrong suggestion distances [-3, -2, -2, -2, 2, 2, 3, 3]
+item_set keys: ['seed', 'median_words_pool', 'block_a_draws', 'practice', 'block_a', 'block_a_halves', 'block_a_lists', 'block_b', 'block_b_lists', 'reserves', 'participant_cell_rule', 'label_names']
+PASS kappa AW-AM scored 0.261
+PASS exact agreement 0.375
+PASS chance agreement 0.154
+PASS within one 0.594
+PASS kappa reserves 0.238
+PASS AW exact 0.25
+PASS AW within1 0.375
+PASS AM exact 0.125
+PASS AM within1 0.281
+PASS scored items 32
+PASS reserve items 11
+PASS both differ scored 18
+PASS both differ reserves 5
+  AW later=16 earlier=7
+PASS AW later than label 16
+PASS AW earlier than label 7
+  AM later=21 earlier=7
+PASS AM later than label 21
+PASS AM earlier than label 7
+PASS timing AW median s 85.8
+PASS timing AM median s 119.1
+PASS P01 console exact x6 2
+PASS P01 visual exact x6 1
+PASS P01 console tolerant x6 4
+PASS P01 visual tolerant x6 1
+PASS P01 console median s 75.9
+PASS P01 visual median s 52.8
+PASS P01 TLX console 56.7
+PASS P01 TLX visual 43.3
+PASS P01 trials 18
+PASS P01 confidence 5 count 17
+PASS P02 median time s 4.6
+  E3: used search False 6
+  E3: opened more than one step True 6
+  E3: used agent filter False 6
+PASS P01 visual Block A trials 6
+PASS P01 visual: used search 0
+PASS P01 visual: used filter 0
+PASS P01 visual: opened >1 step every trial 6
+PASS E2 pool_82 always step 3 56.1
+PASS E2 pool_82 first step by a non-coordinating agent 57.3
+PASS E2 pool_82 first step with tool output 36.6
+PASS E2 pool_82 first step with a number not in the question 18.3
+PASS E2 block_a_24 always step 3 20.8
+PASS E2 block_a_24 first step by a non-coordinating agent 25.0
+PASS E2 block_a_24 first step with tool output 8.3
+PASS E2 block_a_24 first step with a number not in the question 16.7
+PASS E1 category alone, step1 0.81
+PASS E1 category alone, step3 0.428
+PASS E1 position alone, step3 0.326
+PASS E1 corr words vs 1/steps -0.64
+PASS E2 empty-message steps True
+PASS E2 speaker change lost True
+PASS selftest 6,439 checks True
+PASS selftest failed 0 True
+PASS mutation test 175 True
+PASS power value 0.51 True
+PASS power value 0.62 True
+PASS power value 0.74 True
+PASS power value 0.75 True
+PASS power value 0.86 True
+PASS power value 0.93 True
+PASS seed item_selection_seed 20261113
+PASS seed suggestion_key_seed 20261114
+PASS seed screening_order_seed 20261114
+PASS seed reserves_order_seed 20261115
+PASS seed power2_seed 7
+PASS seed power_seed 20261113
+PASS seed bootstrap_seed 20261201
+PASS version python 3.15.0
+PASS version numpy 2.5.4
+PASS version scipy 1.18.1
+PASS version pandas 3.0.6
+PASS version statsmodels 0.15.0
+PASS version matplotlib 3.11.2
+
+Numbers in the paper text with no match in results/ or docs/ (review by hand):
+56.7
+
+RESULT: 102 passed, 0 failed

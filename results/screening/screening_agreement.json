@@ -1,0 +1,72 @@
+{
+ "screener_a": "AW",
+ "screener_b": "AM",
+ "n_scored": 32,
+ "n_reserves": 11,
+ "n_practice_left_out": 2,
+ "scored items": {
+  "n": 32,
+  "kappa": 0.26096997690531176,
+  "exact_agreement": 0.375,
+  "chance_agreement": 0.154296875,
+  "agreement_within_1": 0.59375
+ },
+ "reserves": {
+  "n": 11,
+  "kappa": 0.23762376237623764,
+  "exact_agreement": 0.36363636363636365,
+  "chance_agreement": 0.1652892561983471,
+  "agreement_within_1": 0.5454545454545454
+ },
+ "vs_label": {
+  "AW|scored items": {
+   "n": 32,
+   "exact": 0.25,
+   "within_1": 0.375,
+   "kappa": 0.15789473684210525
+  },
+  "AW|reserves": {
+   "n": 11,
+   "exact": 0.09090909090909091,
+   "within_1": 0.45454545454545453,
+   "kappa": -0.09999999999999996
+  },
+  "AM|scored items": {
+   "n": 32,
+   "exact": 0.125,
+   "within_1": 0.28125,
+   "kappa": 0.012127894156560088
+  },
+  "AM|reserves": {
+   "n": 11,
+   "exact": 0.2727272727272727,
+   "within_1": 0.45454545454545453,
+   "kappa": 0.09278350515463918
+  }
+ },
+ "both_differ_by_more_than_1": [
+  "CA_055",
+  "MO_032",
+  "MO_035",
+  "MO_024",
+  "MO_011",
+  "MO_022",
+  "MO_089",
+  "CA_009",
+  "CA_060",
+  "MO_092",
+  "MO_058",
+  "CA_027",
+  "MO_010",
+  "MO_079",
+  "MO_038",
+  "MO_069",
+  "CA_046",
+  "MO_084",
+  "CA_074",
+  "MO_012",
+  "MO_013",
+  "MO_046",
+  "MO_093"
+ ]
+}

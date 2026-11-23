@@ -1,0 +1,629 @@
+{
+ "seed": 20261113,
+ "median_words_pool": 1135.5,
+ "block_a_draws": 6,
+ "practice": [
+  {
+   "item": "CA_075",
+   "framework": "Camel",
+   "n_steps": 7,
+   "words": 747,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_037",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 866,
+   "n_agents": 2,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  }
+ ],
+ "block_a": [
+  {
+   "item": "CA_031",
+   "framework": "Camel",
+   "n_steps": 3,
+   "words": 268,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "CA_011",
+   "framework": "Camel",
+   "n_steps": 3,
+   "words": 231,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_089",
+   "framework": "Magentic_One",
+   "n_steps": 10,
+   "words": 724,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "CA_060",
+   "framework": "Camel",
+   "n_steps": 7,
+   "words": 903,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_084",
+   "framework": "Magentic_One",
+   "n_steps": 4,
+   "words": 736,
+   "n_agents": 2,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "CA_071",
+   "framework": "Camel",
+   "n_steps": 4,
+   "words": 327,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_092",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 2840,
+   "n_agents": 2,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_010",
+   "framework": "Magentic_One",
+   "n_steps": 8,
+   "words": 1820,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_079",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 1940,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_022",
+   "framework": "Magentic_One",
+   "n_steps": 8,
+   "words": 1530,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_011",
+   "framework": "Magentic_One",
+   "n_steps": 4,
+   "words": 1223,
+   "n_agents": 2,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_032",
+   "framework": "Magentic_One",
+   "n_steps": 10,
+   "words": 1674,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "CA_072",
+   "framework": "Camel",
+   "n_steps": 4,
+   "words": 534,
+   "n_agents": 3,
+   "position_stratum": "later",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_041",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 1068,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "short"
+  },
+  {
+   "item": "CA_027",
+   "framework": "Camel",
+   "n_steps": 11,
+   "words": 684,
+   "n_agents": 3,
+   "position_stratum": "later",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_042",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 932,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "short"
+  },
+  {
+   "item": "CA_009",
+   "framework": "Camel",
+   "n_steps": 14,
+   "words": 1131,
+   "n_agents": 3,
+   "position_stratum": "later",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_019",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 745,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "short"
+  },
+  {
+   "item": "CA_000",
+   "framework": "Camel",
+   "n_steps": 14,
+   "words": 2793,
+   "n_agents": 3,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_069",
+   "framework": "Magentic_One",
+   "n_steps": 12,
+   "words": 2424,
+   "n_agents": 3,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_038",
+   "framework": "Magentic_One",
+   "n_steps": 20,
+   "words": 2977,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_020",
+   "framework": "Magentic_One",
+   "n_steps": 8,
+   "words": 1824,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_025",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 1467,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_059",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 1993,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  }
+ ],
+ "block_a_halves": {
+  "1": {
+   "S1": [
+    "CA_011",
+    "CA_060",
+    "MO_011",
+    "CA_072",
+    "MO_020",
+    "MO_059"
+   ],
+   "S2": [
+    "MO_084",
+    "MO_092",
+    "MO_010",
+    "MO_042",
+    "CA_027",
+    "MO_069"
+   ]
+  },
+  "2": {
+   "S1": [
+    "CA_071",
+    "MO_089",
+    "MO_022",
+    "MO_041",
+    "MO_038",
+    "MO_025"
+   ],
+   "S2": [
+    "CA_031",
+    "MO_032",
+    "MO_079",
+    "MO_019",
+    "CA_009",
+    "CA_000"
+   ]
+  }
+ },
+ "block_a_lists": {
+  "1": {
+   "half": 1,
+   "console": [
+    "CA_011",
+    "CA_060",
+    "MO_011",
+    "CA_072",
+    "MO_020",
+    "MO_059"
+   ],
+   "visual": [
+    "MO_084",
+    "MO_092",
+    "MO_010",
+    "MO_042",
+    "CA_027",
+    "MO_069"
+   ]
+  },
+  "2": {
+   "half": 1,
+   "console": [
+    "MO_084",
+    "MO_092",
+    "MO_010",
+    "MO_042",
+    "CA_027",
+    "MO_069"
+   ],
+   "visual": [
+    "CA_011",
+    "CA_060",
+    "MO_011",
+    "CA_072",
+    "MO_020",
+    "MO_059"
+   ]
+  },
+  "3": {
+   "half": 2,
+   "console": [
+    "CA_071",
+    "MO_089",
+    "MO_022",
+    "MO_041",
+    "MO_038",
+    "MO_025"
+   ],
+   "visual": [
+    "CA_031",
+    "MO_032",
+    "MO_079",
+    "MO_019",
+    "CA_009",
+    "CA_000"
+   ]
+  },
+  "4": {
+   "half": 2,
+   "console": [
+    "CA_031",
+    "MO_032",
+    "MO_079",
+    "MO_019",
+    "CA_009",
+    "CA_000"
+   ],
+   "visual": [
+    "CA_071",
+    "MO_089",
+    "MO_022",
+    "MO_041",
+    "MO_038",
+    "MO_025"
+   ]
+  }
+ },
+ "block_b": [
+  {
+   "item": "MO_024",
+   "framework": "Magentic_One",
+   "n_steps": 14,
+   "words": 2691,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_005",
+   "framework": "Magentic_One",
+   "n_steps": 10,
+   "words": 1430,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_035",
+   "framework": "Magentic_One",
+   "n_steps": 8,
+   "words": 1792,
+   "n_agents": 2,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_045",
+   "framework": "Magentic_One",
+   "n_steps": 8,
+   "words": 1604,
+   "n_agents": 3,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "CA_055",
+   "framework": "Camel",
+   "n_steps": 13,
+   "words": 2287,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "MO_058",
+   "framework": "Magentic_One",
+   "n_steps": 10,
+   "words": 2007,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "CA_057",
+   "framework": "Camel",
+   "n_steps": 4,
+   "words": 324,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "CA_046",
+   "framework": "Camel",
+   "n_steps": 8,
+   "words": 588,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  }
+ ],
+ "block_b_lists": {
+  "1": [
+   {
+    "item": "MO_024",
+    "view": "console",
+    "suggestion": "correct"
+   },
+   {
+    "item": "MO_005",
+    "view": "console",
+    "suggestion": "incorrect"
+   },
+   {
+    "item": "CA_055",
+    "view": "visual",
+    "suggestion": "correct"
+   },
+   {
+    "item": "CA_057",
+    "view": "visual",
+    "suggestion": "incorrect"
+   }
+  ],
+  "2": [
+   {
+    "item": "MO_024",
+    "view": "visual",
+    "suggestion": "incorrect"
+   },
+   {
+    "item": "MO_005",
+    "view": "visual",
+    "suggestion": "correct"
+   },
+   {
+    "item": "CA_055",
+    "view": "console",
+    "suggestion": "incorrect"
+   },
+   {
+    "item": "CA_057",
+    "view": "console",
+    "suggestion": "correct"
+   }
+  ],
+  "3": [
+   {
+    "item": "MO_035",
+    "view": "console",
+    "suggestion": "correct"
+   },
+   {
+    "item": "MO_045",
+    "view": "console",
+    "suggestion": "incorrect"
+   },
+   {
+    "item": "MO_058",
+    "view": "visual",
+    "suggestion": "correct"
+   },
+   {
+    "item": "CA_046",
+    "view": "visual",
+    "suggestion": "incorrect"
+   }
+  ],
+  "4": [
+   {
+    "item": "MO_035",
+    "view": "visual",
+    "suggestion": "incorrect"
+   },
+   {
+    "item": "MO_045",
+    "view": "visual",
+    "suggestion": "correct"
+   },
+   {
+    "item": "MO_058",
+    "view": "console",
+    "suggestion": "incorrect"
+   },
+   {
+    "item": "CA_046",
+    "view": "console",
+    "suggestion": "correct"
+   }
+  ]
+ },
+ "reserves": [
+  {
+   "item": "MO_093",
+   "framework": "Magentic_One",
+   "n_steps": 18,
+   "words": 2705,
+   "n_agents": 3,
+   "position_stratum": "later",
+   "length_stratum": "long"
+  },
+  {
+   "item": "CA_087",
+   "framework": "Camel",
+   "n_steps": 7,
+   "words": 602,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_012",
+   "framework": "Magentic_One",
+   "n_steps": 12,
+   "words": 1377,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "CA_091",
+   "framework": "Camel",
+   "n_steps": 7,
+   "words": 937,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_088",
+   "framework": "Magentic_One",
+   "n_steps": 6,
+   "words": 1219,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "CA_092",
+   "framework": "Camel",
+   "n_steps": 5,
+   "words": 436,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "CA_074",
+   "framework": "Camel",
+   "n_steps": 8,
+   "words": 1665,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "CA_063",
+   "framework": "Camel",
+   "n_steps": 5,
+   "words": 534,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_013",
+   "framework": "Magentic_One",
+   "n_steps": 12,
+   "words": 1935,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  },
+  {
+   "item": "CA_067",
+   "framework": "Camel",
+   "n_steps": 5,
+   "words": 344,
+   "n_agents": 3,
+   "position_stratum": "early",
+   "length_stratum": "short"
+  },
+  {
+   "item": "MO_046",
+   "framework": "Magentic_One",
+   "n_steps": 4,
+   "words": 1365,
+   "n_agents": 2,
+   "position_stratum": "early",
+   "length_stratum": "long"
+  }
+ ],
+ "participant_cell_rule": "participant number n (P01 = 1): cell = (n-1) mod 8; list = cell//2 + 1; view order = console first if cell is even else visual first",
+ "label_names": {
+  "console": "View A",
+  "visual": "View B"
+ }
+}

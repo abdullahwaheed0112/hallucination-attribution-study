@@ -1,0 +1,7 @@
+label,scope,component,used,n_trials,n_participants,exact_acc,median_time_s
+SIMULATED - pipeline test only,"E3: visual-view Block A trials; correlational only (people who use a component may be those who found the trial hard); descriptive, no p-values, no intervals",used search,False,64,27,0.531,72.0
+SIMULATED - pipeline test only,"E3: visual-view Block A trials; correlational only (people who use a component may be those who found the trial hard); descriptive, no p-values, no intervals",used search,True,128,32,0.531,68.7
+SIMULATED - pipeline test only,"E3: visual-view Block A trials; correlational only (people who use a component may be those who found the trial hard); descriptive, no p-values, no intervals",opened more than one step,False,21,18,0.476,71.7
+SIMULATED - pipeline test only,"E3: visual-view Block A trials; correlational only (people who use a component may be those who found the trial hard); descriptive, no p-values, no intervals",opened more than one step,True,171,32,0.538,69.2
+SIMULATED - pipeline test only,"E3: visual-view Block A trials; correlational only (people who use a component may be those who found the trial hard); descriptive, no p-values, no intervals",used agent filter,False,156,32,0.519,70.7
+SIMULATED - pipeline test only,"E3: visual-view Block A trials; correlational only (people who use a component may be those who found the trial hard); descriptive, no p-values, no intervals",used agent filter,True,36,23,0.583,66.1

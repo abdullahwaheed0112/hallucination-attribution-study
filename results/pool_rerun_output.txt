@@ -1,0 +1,19 @@
+positives 111
+<=20 steps 104
+<=20 steps & <=3000 words (content+tool I/O) 83
+... & responsible role known 82
+... & unique question 82
+strata (length x position): {('short<=10', 'later>=4'): 10, ('short<=10', 'early<=3'): 57, ('long11-20', 'early<=3'): 8, ('long11-20', 'later>=4'): 7}
+by framework: Counter({'Magentic_One': 47, 'Camel': 35})
+by category: Counter({'Reasoning Hallucination': 31, 'Human-Interaction Hallucination': 22, 'Planning Hallucination': 21, 'Retrieval Hallucination': 8})
+agents per trace: Counter({3: 53, 2: 24, 4: 5})
+first-step heuristic acc 0.220; most common step (3, 46); mean chance (1/n) 0.165
+step-3 heuristic acc 0.561
+words: median 1135.5 max 2977
+strata (words median split x position): {('words>1135', 'later>=4'): 11, ('words>1135', 'early<=3'): 30, ('words<=1135', 'early<=3'): 35, ('words<=1135', 'later>=4'): 6}
+later items by fw: Counter({'Magentic_One': 13, 'Camel': 4})
+later items by cat: Counter({'Reasoning Hallucination': 16, 'Retrieval Hallucination': 1})
+early step values: Counter({3: 46, 1: 18, 2: 1})
+later step values: [(4, 4), (5, 3), (6, 2), (7, 3), (8, 1), (9, 1), (11, 1), (17, 1), (18, 1)]
+responsible agent (role) dist: Counter({'MagenticOneOrchestrator': 22, 'Developer Agent': 17, 'Search Agent': 16, 'WebSurfer': 14, 'Coder': 11, 'Planner': 2})
+steps distribution: min 3 median 6.0 max 20

@@ -1,0 +1,25 @@
+{
+ "seeds": {
+  "item_selection_seed": 20261113,
+  "suggestion_key_seed": 20261114,
+  "screening_order_seed": 20261114,
+  "reserves_order_seed": 20261115,
+  "power2_seed": 7,
+  "power_seed": 20261113,
+  "simulated_data_seed": 20261201,
+  "recovery_large_seed_start": 777000,
+  "recovery_small_seed_start": 888000,
+  "bootstrap_seed": 20261201,
+  "figure_jitter_seed": 1
+ },
+ "versions": {
+  "python": "3.15.0",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6",
+  "statsmodels": "0.15.0",
+  "matplotlib": "3.11.2",
+  "pypdf": "7.0.0"
+ }
+}

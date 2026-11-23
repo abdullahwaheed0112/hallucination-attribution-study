@@ -1,0 +1,137 @@
+{
+ "banner": "SIMULATED - pipeline test only",
+ "mode": "simulated",
+ "input": "trials_SIMULATED.csv",
+ "schema_warnings": [],
+ "primary_model": {
+  "model": "1: VB mixed GLM, participant + participant-by-view + item",
+  "interval_type": "posterior (variational Bayes), not a frequentist confidence interval",
+  "log_odds": 0.9749138318396273,
+  "sd": 0.16451549411181587,
+  "odds_ratio": 2.6509387746233077,
+  "or_low": 1.920265510850938,
+  "or_high": 3.6596378714770537,
+  "tried": []
+ },
+ "paired_and_bootstrap": {
+  "n_participants": 32,
+  "mean_diff_visual_minus_console": 0.1875,
+  "bootstrap_95ci": [
+   0.09895833333333334,
+   0.27083333333333337
+  ],
+  "bootstrap_seed": 20261201,
+  "bootstrap_resamples": 5000,
+  "paired_t": 4.077884141665588,
+  "paired_t_p": 0.0002940567438548623,
+  "wilcoxon_p": 0.001740474751305295
+ },
+ "secondary_outcomes_holm": [
+  {
+   "outcome": "agent accuracy",
+   "mean_console": 0.5729166666666667,
+   "mean_visual": 0.7395833333333333,
+   "paired_t_p": 0.0006997165062288303,
+   "holm_p": 0.0027988660249153212
+  },
+  {
+   "outcome": "tolerant accuracy",
+   "mean_console": 0.6822916666666666,
+   "mean_visual": 0.7604166666666666,
+   "paired_t_p": 0.07878304221763083,
+   "holm_p": 0.23634912665289248
+  },
+  {
+   "outcome": "mean log time (s)",
+   "mean_console": 4.334024470268662,
+   "mean_visual": 4.246017027808378,
+   "paired_t_p": 0.11829320281260913,
+   "holm_p": 0.23658640562521827
+  },
+  {
+   "outcome": "Brier score",
+   "mean_console": 0.2202473958333333,
+   "mean_visual": 0.20247395833333331,
+   "paired_t_p": 0.5069337539998001,
+   "holm_p": 0.5069337539998001
+  },
+  {
+   "outcome": "raw NASA-TLX",
+   "mean_console": 54.53125,
+   "mean_visual": 48.48958333333333,
+   "paired_t_p": 0.00014452763739020532,
+   "holm_p": 0.0007226381869510265
+  }
+ ],
+ "exploratory": {
+  "H3_gee_view_x_position_and_length": {
+   "Intercept": {
+    "log_odds": -0.6037998580385228,
+    "se": 0.2026456585980976,
+    "p": 0.002886396322822183
+   },
+   "view_visual": {
+    "log_odds": 0.8382477945508263,
+    "se": 0.30401582665643634,
+    "p": 0.005828967528260708
+   },
+   "later": {
+    "log_odds": -0.0954234749175223,
+    "se": 0.26397099499430826,
+    "p": 0.7177314804735093
+   },
+   "view_visual:later": {
+    "log_odds": -0.10282567045980354,
+    "se": 0.396319559434784,
+    "p": 0.7952869640309534
+   },
+   "words_z": {
+    "log_odds": 0.21300547210072737,
+    "se": 0.1531078460435518,
+    "p": 0.164161150630306
+   },
+   "view_visual:words_z": {
+    "log_odds": 0.23088691649870738,
+    "se": 0.2272620395757127,
+    "p": 0.30965309779779127
+   }
+  },
+  "log_time_mixedlm": {
+   "view_coef": -0.08800744246028228,
+   "se": 0.047661851281658535,
+   "p": 0.0648201444129069,
+   "converged": false,
+   "warnings": [
+    "Gradient optimization failed, |grad| = 21.861185",
+    "Maximum Likelihood optimization failed to converge. Check mle_retvals",
+    "MixedLM optimization failed, trying a different optimizer may help.",
+    "Retrying MixedLM optimization with cg",
+    "Retrying MixedLM optimization with lbfgs",
+    "The Hessian matrix at the estimated parameter values is not positive d",
+    "The MLE may be on the boundary of the parameter space."
+   ]
+  },
+  "block_B_gee_suggestion_x_view": {
+   "Intercept": {
+    "log_odds": -1.466337068793427,
+    "se": 0.45291081365783614,
+    "p": 0.0012054619860964396
+   },
+   "suggestion_correct": {
+    "log_odds": 2.1129642337184795,
+    "se": 0.5322332977861141,
+    "p": 7.187374181632101e-05
+   },
+   "view_visual": {
+    "log_odds": 0.677879708429157,
+    "se": 0.5857674821322363,
+    "p": 0.2471700330310509
+   },
+   "suggestion_correct:view_visual": {
+    "log_odds": -0.22589458468609966,
+    "se": 0.7120372485766998,
+    "p": 0.7510530954359649
+   }
+  }
+ }
+}

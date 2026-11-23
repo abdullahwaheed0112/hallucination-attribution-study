@@ -1,0 +1,7 @@
+framework,category,scope,1,2,3,4+
+Camel,Human-Interaction Hallucination,"E1: 82 eligible pool items; simple rules only; descriptive (no p-values, no intervals); position and category are confounded; not a model of human or LLM difficulty",0,0,22,0
+Camel,Planning Hallucination,"E1: 82 eligible pool items; simple rules only; descriptive (no p-values, no intervals); position and category are confounded; not a model of human or LLM difficulty",2,0,0,0
+Camel,Reasoning Hallucination,"E1: 82 eligible pool items; simple rules only; descriptive (no p-values, no intervals); position and category are confounded; not a model of human or LLM difficulty",0,0,7,4
+Magentic_One,Planning Hallucination,"E1: 82 eligible pool items; simple rules only; descriptive (no p-values, no intervals); position and category are confounded; not a model of human or LLM difficulty",16,0,3,0
+Magentic_One,Reasoning Hallucination,"E1: 82 eligible pool items; simple rules only; descriptive (no p-values, no intervals); position and category are confounded; not a model of human or LLM difficulty",0,1,7,12
+Magentic_One,Retrieval Hallucination,"E1: 82 eligible pool items; simple rules only; descriptive (no p-values, no intervals); position and category are confounded; not a model of human or LLM difficulty",0,0,7,1

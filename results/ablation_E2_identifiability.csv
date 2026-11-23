@@ -1,0 +1,10 @@
+scope,item_set,measure,items,of,share
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,pool_82,label step message empty (tool-only step),35,82,0.427
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,pool_82,label step message duplicated by another step,0,82,0.0
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,pool_82,responsible agent also wrote the previous step (speaker change lost in R2),4,82,0.049
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,block_a_24,label step message empty (tool-only step),6,24,0.25
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,block_a_24,label step message duplicated by another step,0,24,0.0
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,block_a_24,responsible agent also wrote the previous step (speaker change lost in R2),4,24,0.167
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,block_b_8,label step message empty (tool-only step),3,8,0.375
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,block_b_8,label step message duplicated by another step,0,8,0.0
+E2: 82 eligible pool items; simple rules on a text format; not language models and not people; says nothing about how a human reads either view; no p-values,block_b_8,responsible agent also wrote the previous step (speaker change lost in R2),0,8,0.0

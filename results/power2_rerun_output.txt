@@ -1,0 +1,4 @@
+per_view 6 items 24 delta +0.15: N=24: 0.51 N=32: 0.62 N=40: 0.74
+per_view 6 items 24 delta +0.20: N=24: 0.75 N=32: 0.86 N=40: 0.93
+per_view 8 items 24 delta +0.15: N=24: 0.62 N=32: 0.74 N=40: 0.83
+per_view 8 items 24 delta +0.20: N=24: 0.86 N=32: 0.93 N=40: 0.99

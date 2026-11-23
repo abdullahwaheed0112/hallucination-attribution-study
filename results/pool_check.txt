@@ -1,0 +1,13 @@
+Filter counts: hallucination present = 111; <= 20 steps = 104; <= 3000 words = 83; responsible role known = 82; unique question = 82
+pool size                    M2 82       got 82       OK
+Magentic_One                 M2 47       got 47       OK
+Camel                        M2 35       got 35       OK
+step 3 labels                M2 46       got 46       OK
+median words                 M2 1135.5   got 1135.5   OK
+later items below median     M2 6        got 6        OK
+later items                  M2 17       got 17       OK
+step 1 labels                M2 18       got 18       OK
+step 2 labels                M2 1        got 1        OK
+Items whose agent_answer contains the true_answer text (need a manual look): 8 of 82
+Steps with tool output over 150 words (collapsed behind expand): 64
+Result: ALL M2 NUMBERS REPRODUCED

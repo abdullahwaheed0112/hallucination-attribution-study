@@ -1,0 +1,20 @@
+label,block,view,error_type,n,share_of_trials_in_cell
+SIMULATED - pipeline test only,A,console,correct,66,0.34375
+SIMULATED - pipeline test only,A,console,"right agent, too early",17,0.08854166666666667
+SIMULATED - pipeline test only,A,console,"right agent, too late",27,0.140625
+SIMULATED - pipeline test only,A,console,timeout,6,0.03125
+SIMULATED - pipeline test only,A,console,wrong agent,76,0.3958333333333333
+SIMULATED - pipeline test only,A,visual,correct,102,0.53125
+SIMULATED - pipeline test only,A,visual,"right agent, too early",14,0.07291666666666667
+SIMULATED - pipeline test only,A,visual,"right agent, too late",26,0.13541666666666666
+SIMULATED - pipeline test only,A,visual,timeout,5,0.026041666666666668
+SIMULATED - pipeline test only,A,visual,wrong agent,45,0.234375
+SIMULATED - pipeline test only,B,console,correct,27,0.421875
+SIMULATED - pipeline test only,B,console,"right agent, too early",2,0.03125
+SIMULATED - pipeline test only,B,console,"right agent, too late",7,0.109375
+SIMULATED - pipeline test only,B,console,timeout,2,0.03125
+SIMULATED - pipeline test only,B,console,wrong agent,26,0.40625
+SIMULATED - pipeline test only,B,visual,correct,34,0.53125
+SIMULATED - pipeline test only,B,visual,"right agent, too early",2,0.03125
+SIMULATED - pipeline test only,B,visual,"right agent, too late",6,0.09375
+SIMULATED - pipeline test only,B,visual,wrong agent,22,0.34375

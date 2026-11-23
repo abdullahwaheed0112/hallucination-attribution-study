@@ -1,0 +1,15 @@
+data/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+results/labels_PRIVATE.json
+results/suggestion_key_PRIVATE.json
+.env
+*.zip

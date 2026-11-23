@@ -1,0 +1,45 @@
+Self-test output (app/selftest.html, run in the built-in browser pane via python -m http.server, Fri 2026-11-13)
+Source: copied from the page's #out element. Re-run it any time by opening app/selftest.html.
+
+items: 45; steps: 363; steps with collapsed tool output (> 150 words): 50
+
+test                                                                     checks  failed
+T1 console body, collapsed state                                            363       0
+T11 badge: console shows exactly one, text exact                             45       0
+T11 badge: one flag on the suggested mark, same wording in its title         45       0
+T11 badge: visual panel badge text exact                                     45       0
+T11 no badge when no suggestion                                              45       0
+T2 console body, expanded                                                   363       0
+T3 visual panel body, collapsed state                                       363       0
+T3 visual panel body, expanded                                              363       0
+T4 console header text                                                      363       0
+T4 visual panel header = console header                                     363       0
+T5 visual: arrow at each speaker change                                     219       0
+T5 visual: arrows only at speaker changes                                    45       0
+T5 visual: lane labels = agents in order of first appearance                 45       0
+T5 visual: mark lane = step agent                                           363       0
+T5 visual: mark type = message vs tool call                                 363       0
+T5 visual: one mark per step                                                 45       0
+T6 next: both views report the same position                                136       0
+T6 search count, console = independent count                                225       0
+T6 search count, visual = independent count                                 225       0
+T6 search: highlights in console = count                                    225       0
+T6 search: highlights in the details panel = matches in that step           879       0
+T6 search: lane marks ringed = steps with a match                           225       0
+T7 filter: hidden agent's bodies are hidden in console                      363       0
+T7 filter: hidden step in visual panel shows the same note                   45       0
+T7 filter: search ignores hidden agents (console)                            45       0
+T7 filter: search ignores hidden agents (visual)                             45       0
+T8 confirmation text identical and names the step                            45       0
+T8 console: one Select button per step                                       45       0
+T8 visual: exactly one Select button, in the panel                          363       0
+T8 visual: no Select button before a step is chosen                          45       0
+T9 task block: contains question, final answer, reference answer             45       0
+T9 task block: identical text in both views                                  45       0
+
+TOTAL checks: 6439   failed: 0
+RESULT: PASS
+
+History: the first run reported 209 failures, all in the T7 filter checks on the console view. Cause: a bug in the test, not the app. The test clicked a filter checkbox on a view that was no longer in the document, and browsers do not fire change events on detached elements. After mounting each view before using it, the same checks passed.
+
+Independent cross-check in Python (reads results/step_table.csv, no browser): the same 45 items have 363 steps, and 50 of them have more than 150 words of tool output. This matches the page's count of collapsed steps.

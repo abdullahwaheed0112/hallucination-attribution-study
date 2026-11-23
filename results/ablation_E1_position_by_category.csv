@@ -1,0 +1,3 @@
+position_stratum,scope,Human-Interaction Hallucination,Planning Hallucination,Reasoning Hallucination,Retrieval Hallucination
+early,"E1: 82 eligible pool items; simple rules only; descriptive (no p-values, no intervals); position and category are confounded; not a model of human or LLM difficulty",22,21,15,7
+later,"E1: 82 eligible pool items; simple rules only; descriptive (no p-values, no intervals); position and category are confounded; not a model of human or LLM difficulty",0,0,16,1

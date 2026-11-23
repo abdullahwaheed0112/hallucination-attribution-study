@@ -1,0 +1,14 @@
+{
+ "SIMULATED": true,
+ "seed": 20261201,
+ "n_participants": 32,
+ "view_effect_logit": 0.8,
+ "base": 0.4,
+ "sd_participant": 0.8,
+ "sd_item": 1.0,
+ "sd_slope": 0.3,
+ "later_effect": -0.5,
+ "timeout_p": 0.03,
+ "follow_wrong": 0.35,
+ "follow_shift_visual": 0.0
+}

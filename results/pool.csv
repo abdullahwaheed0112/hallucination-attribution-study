@@ -1,0 +1,83 @@
+item,framework,file,n_steps,wc_pool,n_agents,agents,label_step,responsible_agent,category,length_stratum,position_stratum,answer_contains_truth
+MO_005,Magentic_One,Magentic_One/005.json,10,1430,2,MagenticOneOrchestrator|WebSurfer,9,WebSurfer,Reasoning Hallucination,long,later,False
+MO_007,Magentic_One,Magentic_One/007.json,4,1314,2,Coder|MagenticOneOrchestrator,3,Coder,Reasoning Hallucination,long,early,True
+MO_008,Magentic_One,Magentic_One/008.json,6,885,3,Coder|MagenticOneOrchestrator|WebSurfer,3,WebSurfer,Retrieval Hallucination,short,early,False
+MO_010,Magentic_One,Magentic_One/010.json,8,1820,3,Coder|ComputerTerminal|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_011,Magentic_One,Magentic_One/011.json,4,1223,2,Coder|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,True
+MO_012,Magentic_One,Magentic_One/012.json,12,1377,3,Coder|ComputerTerminal|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_013,Magentic_One,Magentic_One/013.json,12,1935,3,Coder|MagenticOneOrchestrator|WebSurfer,3,WebSurfer,Retrieval Hallucination,long,early,False
+MO_016,Magentic_One,Magentic_One/016.json,4,638,2,MagenticOneOrchestrator|WebSurfer,3,WebSurfer,Retrieval Hallucination,short,early,False
+MO_017,Magentic_One,Magentic_One/017.json,4,845,2,Coder|MagenticOneOrchestrator,3,Coder,Reasoning Hallucination,short,early,False
+MO_018,Magentic_One,Magentic_One/018.json,8,1892,3,Coder|ComputerTerminal|MagenticOneOrchestrator,3,Coder,Reasoning Hallucination,long,early,False
+MO_019,Magentic_One,Magentic_One/019.json,6,745,2,MagenticOneOrchestrator|WebSurfer,5,WebSurfer,Reasoning Hallucination,short,later,False
+MO_020,Magentic_One,Magentic_One/020.json,8,1824,2,MagenticOneOrchestrator|WebSurfer,7,WebSurfer,Reasoning Hallucination,long,later,False
+MO_021,Magentic_One,Magentic_One/021.json,4,832,2,MagenticOneOrchestrator|WebSurfer,3,WebSurfer,Retrieval Hallucination,short,early,False
+MO_022,Magentic_One,Magentic_One/022.json,8,1530,3,Coder|MagenticOneOrchestrator|WebSurfer,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_023,Magentic_One,Magentic_One/023.json,4,1405,2,Coder|MagenticOneOrchestrator,3,Coder,Reasoning Hallucination,long,early,False
+MO_024,Magentic_One,Magentic_One/024.json,14,2691,2,MagenticOneOrchestrator|WebSurfer,11,WebSurfer,Reasoning Hallucination,long,later,False
+MO_025,Magentic_One,Magentic_One/025.json,6,1467,2,MagenticOneOrchestrator|WebSurfer,6,MagenticOneOrchestrator,Reasoning Hallucination,long,later,False
+MO_028,Magentic_One,Magentic_One/028.json,8,1771,4,Coder|ComputerTerminal|MagenticOneOrchestrator|WebSurfer,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_031,Magentic_One,Magentic_One/031.json,14,2586,3,Coder|ComputerTerminal|MagenticOneOrchestrator,3,Coder,Reasoning Hallucination,long,early,False
+MO_032,Magentic_One,Magentic_One/032.json,10,1674,3,Coder|ComputerTerminal|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_034,Magentic_One,Magentic_One/034.json,8,893,4,Coder|ComputerTerminal|MagenticOneOrchestrator|WebSurfer,3,WebSurfer,Retrieval Hallucination,short,early,False
+MO_035,Magentic_One,Magentic_One/035.json,8,1792,2,MagenticOneOrchestrator|WebSurfer,4,MagenticOneOrchestrator,Reasoning Hallucination,long,later,False
+MO_037,Magentic_One,Magentic_One/037.json,6,866,2,MagenticOneOrchestrator|WebSurfer,3,WebSurfer,Retrieval Hallucination,short,early,False
+MO_038,Magentic_One,Magentic_One/038.json,20,2977,2,MagenticOneOrchestrator|WebSurfer,17,WebSurfer,Reasoning Hallucination,long,later,False
+MO_041,Magentic_One,Magentic_One/041.json,6,1068,2,MagenticOneOrchestrator|WebSurfer,4,MagenticOneOrchestrator,Reasoning Hallucination,short,later,False
+MO_042,Magentic_One,Magentic_One/042.json,6,932,2,MagenticOneOrchestrator|WebSurfer,5,WebSurfer,Reasoning Hallucination,short,later,False
+MO_045,Magentic_One,Magentic_One/045.json,8,1604,3,Coder|ComputerTerminal|MagenticOneOrchestrator,7,Coder,Reasoning Hallucination,long,later,False
+MO_046,Magentic_One,Magentic_One/046.json,4,1365,2,Coder|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_047,Magentic_One,Magentic_One/047.json,8,1150,4,Coder|ComputerTerminal|MagenticOneOrchestrator|WebSurfer,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_058,Magentic_One,Magentic_One/058.json,10,2007,3,Coder|ComputerTerminal|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_059,Magentic_One,Magentic_One/059.json,6,1993,2,MagenticOneOrchestrator|WebSurfer,6,MagenticOneOrchestrator,Reasoning Hallucination,long,later,True
+MO_069,Magentic_One,Magentic_One/069.json,12,2424,3,Coder|MagenticOneOrchestrator|WebSurfer,7,WebSurfer,Retrieval Hallucination,long,later,False
+MO_071,Magentic_One,Magentic_One/071.json,4,908,2,MagenticOneOrchestrator|WebSurfer,3,WebSurfer,Retrieval Hallucination,short,early,False
+MO_073,Magentic_One,Magentic_One/073.json,6,1376,2,Coder|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_074,Magentic_One,Magentic_One/074.json,14,1326,3,Coder|ComputerTerminal|MagenticOneOrchestrator,3,Coder,Planning Hallucination,long,early,False
+MO_075,Magentic_One,Magentic_One/075.json,6,1496,2,Coder|MagenticOneOrchestrator,3,Coder,Reasoning Hallucination,long,early,False
+MO_076,Magentic_One,Magentic_One/076.json,6,1216,2,Coder|MagenticOneOrchestrator,3,Coder,Reasoning Hallucination,long,early,False
+MO_078,Magentic_One,Magentic_One/078.json,6,2767,3,Coder|ComputerTerminal|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_079,Magentic_One,Magentic_One/079.json,6,1940,3,Coder|ComputerTerminal|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_084,Magentic_One,Magentic_One/084.json,4,736,2,Coder|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,short,early,False
+MO_087,Magentic_One,Magentic_One/087.json,10,1627,3,Coder|ComputerTerminal|MagenticOneOrchestrator,3,Coder,Planning Hallucination,long,early,False
+MO_088,Magentic_One,Magentic_One/088.json,6,1219,3,Coder|MagenticOneOrchestrator|WebSurfer,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_089,Magentic_One,Magentic_One/089.json,10,724,3,Coder|ComputerTerminal|MagenticOneOrchestrator,2,MagenticOneOrchestrator,Reasoning Hallucination,short,early,False
+MO_090,Magentic_One,Magentic_One/090.json,12,1718,3,Coder|ComputerTerminal|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_091,Magentic_One,Magentic_One/091.json,8,1493,3,Coder|ComputerTerminal|MagenticOneOrchestrator,1,MagenticOneOrchestrator,Planning Hallucination,long,early,False
+MO_092,Magentic_One,Magentic_One/092.json,6,2840,2,Coder|MagenticOneOrchestrator,3,Coder,Planning Hallucination,long,early,False
+MO_093,Magentic_One,Magentic_One/093.json,18,2705,3,Coder|ComputerTerminal|MagenticOneOrchestrator,18,MagenticOneOrchestrator,Reasoning Hallucination,long,later,False
+CA_000,Camel,Camel/000.json,14,2793,3,Coordinator|Developer Agent|Planner,8,Developer Agent,Reasoning Hallucination,long,later,True
+CA_006,Camel,Camel/006.json,3,235,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Reasoning Hallucination,short,early,False
+CA_009,Camel,Camel/009.json,14,1131,3,Coordinator|Developer Agent|Planner,4,Developer Agent,Reasoning Hallucination,short,later,True
+CA_011,Camel,Camel/011.json,3,231,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Reasoning Hallucination,short,early,False
+CA_019,Camel,Camel/019.json,4,148,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Reasoning Hallucination,short,early,False
+CA_026,Camel,Camel/026.json,6,873,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Reasoning Hallucination,short,early,False
+CA_027,Camel,Camel/027.json,11,684,3,Coordinator|Developer Agent|Planner,5,Developer Agent,Reasoning Hallucination,short,later,False
+CA_030,Camel,Camel/030.json,3,385,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Reasoning Hallucination,short,early,False
+CA_031,Camel,Camel/031.json,3,268,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Reasoning Hallucination,short,early,False
+CA_032,Camel,Camel/032.json,3,341,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Reasoning Hallucination,short,early,False
+CA_044,Camel,Camel/044.json,9,834,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_046,Camel,Camel/046.json,8,588,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,True
+CA_052,Camel,Camel/052.json,7,1140,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,long,early,True
+CA_053,Camel,Camel/053.json,5,524,4,Coordinator|Developer Agent|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_054,Camel,Camel/054.json,6,592,4,Coordinator|Developer Agent|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_055,Camel,Camel/055.json,13,2287,3,Coordinator|Planner|Search Agent,1,Planner,Planning Hallucination,long,early,False
+CA_056,Camel,Camel/056.json,17,2484,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,long,early,False
+CA_057,Camel,Camel/057.json,4,324,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_058,Camel,Camel/058.json,4,590,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Human-Interaction Hallucination,short,early,False
+CA_059,Camel,Camel/059.json,7,1682,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,long,early,False
+CA_060,Camel,Camel/060.json,7,903,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_063,Camel,Camel/063.json,5,534,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_067,Camel,Camel/067.json,5,344,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_070,Camel,Camel/070.json,4,448,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_071,Camel,Camel/071.json,4,327,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_072,Camel,Camel/072.json,4,534,3,Coordinator|Developer Agent|Planner,4,Developer Agent,Reasoning Hallucination,short,later,False
+CA_073,Camel,Camel/073.json,6,893,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Human-Interaction Hallucination,short,early,False
+CA_074,Camel,Camel/074.json,8,1665,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,long,early,True
+CA_075,Camel,Camel/075.json,7,747,3,Coordinator|Developer Agent|Planner,1,Planner,Planning Hallucination,short,early,False
+CA_087,Camel,Camel/087.json,7,602,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Human-Interaction Hallucination,short,early,False
+CA_088,Camel,Camel/088.json,6,532,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Human-Interaction Hallucination,short,early,False
+CA_089,Camel,Camel/089.json,4,439,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Human-Interaction Hallucination,short,early,False
+CA_090,Camel,Camel/090.json,13,348,3,Coordinator|Developer Agent|Planner,3,Developer Agent,Human-Interaction Hallucination,short,early,False
+CA_091,Camel,Camel/091.json,7,937,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False
+CA_092,Camel,Camel/092.json,5,436,3,Coordinator|Planner|Search Agent,3,Search Agent,Human-Interaction Hallucination,short,early,False

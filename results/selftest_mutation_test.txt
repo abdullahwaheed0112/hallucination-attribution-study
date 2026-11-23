@@ -1,0 +1,17 @@
+Mutation test of app/selftest.html, Fri 2026-11-13 (run in the built-in browser pane through python -m http.server)
+
+Mutation: in app/js/views.js (visual view, details panel) the first lowercase letter of the first text block of step 2 was replaced by "#". One step, one view, in every item. The View A (console) code was not touched.
+The file was backed up first (sha256 038d7669...06e8), mutated, tested, then restored from the backup. After the restore the sha256 is identical and the word MUTATION no longer appears in the file.
+
+Run 1, mutated file:
+  TOTAL checks: 6439   failed: 175   RESULT: FAIL
+  T3 visual panel body, collapsed state      363 checks   45 failed
+  T3 visual panel body, expanded             363 checks   45 failed
+  T6 search: highlights in the details panel 879 checks   85 failed
+  First failures: "T3 visual panel body, collapsed state: CA_075 step 2", "T3 visual panel body, expanded: CA_075 step 2", ... (one per item, step 2)
+
+Run 2, restored file:
+  items: 45; steps: 363; steps with collapsed tool output (> 150 words): 50
+  TOTAL checks: 6439   failed: 0   RESULT: PASS
+
+Reading: the self-test detects a one-character change in one step of one view (45 items, each caught by the two panel-body tests, plus 85 search-highlight checks that depend on the same text). It does not prove that nothing else could slip through; it shows these checks are not vacuous.

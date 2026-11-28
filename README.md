@@ -1,5 +1,11 @@
 # Locating the first hallucinated step in multi-agent LLM traces
 
+**Headline so far: the "correct answer" is itself contestable.** Two authors who labelled the first hallucinated step blind agreed only weakly (Cohen's kappa 0.261 on 32 scored items), and on 18 of them both differed from the published label by more than one step. On the 82-trace pool, always guessing "step 3" scores 56.1% against 16.5% for chance; the balanced 24-item main block cuts that shortcut to 20.8%. No participants have been recruited, so there is no result about which view helps.
+
+![Baseline accuracy by item set](figures/real/F1_baseline_accuracy_by_strata.png)
+
+Numbers: [`results/baselines.csv`](results/baselines.csv), [`results/screening/screening_agreement.md`](results/screening/screening_agreement.md) and the [paper](paper/paper.pdf).
+
 A study instrument, item set and analysis code for one question: **do people find the first hallucinated step in a multi-agent LLM trace more accurately with a plain console log (View A) or with an information-equivalent swimlane view (View B)?** Answers are scored against the AgentHallu labels.
 
 **Status.** The study has not been run with participants, because ethics review for a classmate study is unresolved. The repository contains the pipeline that builds the item set, the offline study app, participant-free baselines and ablations, analysis code tested on simulated data, the blind screening of the labels by the two authors, and the paper (`paper/`). It contains no result about whether either view helps. Nothing in `simulated/` is a finding.
@@ -186,6 +192,10 @@ latexmk -pdf paper.tex
 3. Data from the two authors' sessions are `PILOT`, reported descriptively only: no p-values, no confidence intervals, no claims of significance.
 4. Deviations from the planned design are logged in `docs\decisions_log.md` with what, why, date and impact.
 5. Nobody outside the two authors may use the app until ethics review is resolved.
+
+## My role
+
+Co-authored research project. I (Abdullah Waheed) did most of the work, including the study app, the item-selection pipeline, the baselines, ablations and analysis code, and the paper. Chaudhary Abdul Moiz is co-author and was the second blind screener of the labels.
 
 ## 11. Licences and credits
 
